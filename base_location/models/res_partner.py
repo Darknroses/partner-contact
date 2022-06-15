@@ -9,7 +9,8 @@ from odoo.exceptions import ValidationError
 class ResPartner(models.Model):
     _inherit = "res.partner"
 
-    zip_id = fields.Many2one("res.city.zip", "ZIP Location")
+    zip_id = fields.Many2one("res.city.zip", "ZIP Location", index=True)
+    city_id = fields.Many2one(index=True)  # add index for performance
 
     @api.onchange("city_id")
     def _onchange_city_id(self):
@@ -78,3 +79,7 @@ class ResPartner(models.Model):
         if self.zip_id and self.state_id != self.zip_id.city_id.state_id:
             vals.update({"zip_id": False, "zip": False, "city": False})
         self.update(vals)
+
+    @api.model
+    def _address_fields(self):
+        return super()._address_fields() + ["zip_id"]

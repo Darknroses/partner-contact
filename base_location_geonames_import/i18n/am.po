@@ -19,6 +19,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. module: base_location_geonames_import
+#: code:addons/base_location_geonames_import/wizard/geonames_import.py:0
+#, python-format
+msgid "%d could not be deleted %"
+msgstr ""
+
+#. module: base_location_geonames_import
 #: model_terms:ir.ui.view,arch_db:base_location_geonames_import.city_zip_geonames_import_form
 msgid ""
 ", create new location entries if not found already in the system, and "
@@ -35,6 +41,11 @@ msgstr "Cancelar"
 msgid ""
 "Converts retreived city and state names to Title Case (upper case on each "
 "first letter of a word) or Upper Case (all letters upper case)."
+msgstr ""
+
+#. module: base_location_geonames_import
+#: model:ir.model.fields,field_description:base_location_geonames_import.field_city_zip_geonames_import__country_ids
+msgid "Countries"
 msgstr ""
 
 #. module: base_location_geonames_import
@@ -66,13 +77,11 @@ msgid ""
 msgstr ""
 
 #. module: base_location_geonames_import
-#: model:ir.model.fields,field_description:base_location_geonames_import.field_city_zip_geonames_import__code_row_index
 #: model:ir.model.fields,field_description:base_location_geonames_import.field_res_country__geonames_state_code_column
 msgid "Geonames State Code Column"
 msgstr ""
 
 #. module: base_location_geonames_import
-#: model:ir.model.fields,field_description:base_location_geonames_import.field_city_zip_geonames_import__name_row_index
 #: model:ir.model.fields,field_description:base_location_geonames_import.field_res_country__geonames_state_name_column
 msgid "Geonames State Name Column"
 msgstr ""
