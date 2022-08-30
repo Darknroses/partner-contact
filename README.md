@@ -1,6 +1,7 @@
 
 [![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/partner-contact&target_branch=14.0)
-[![Build Status](https://travis-ci.com/OCA/partner-contact.svg?branch=14.0)](https://travis-ci.com/OCA/partner-contact)
+[![Pre-commit Status](https://github.com/OCA/partner-contact/actions/workflows/pre-commit.yml/badge.svg?branch=14.0)](https://github.com/OCA/partner-contact/actions/workflows/pre-commit.yml?query=branch%3A14.0)
+[![Build Status](https://github.com/OCA/partner-contact/actions/workflows/test.yml/badge.svg?branch=14.0)](https://github.com/OCA/partner-contact/actions/workflows/test.yml?query=branch%3A14.0)
 [![codecov](https://codecov.io/gh/OCA/partner-contact/branch/14.0/graph/badge.svg)](https://codecov.io/gh/OCA/partner-contact)
 [![Translation Status](https://translation.odoo-community.org/widgets/partner-contact-14-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/partner-contact-14-0/?utm_source=widget)
 
@@ -32,6 +33,8 @@ addon | version | maintainers | summary
 [partner_affiliate](partner_affiliate/) | 14.0.1.0.1 |  | Partner Affiliates
 [partner_bank_code](partner_bank_code/) | 14.0.1.1.0 |  | Add fields information in banks
 [partner_capital](partner_capital/) | 14.0.1.0.0 |  | Partners Capital
+[partner_category_security](partner_category_security/) | 14.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Partner category security
+[partner_category_security_crm](partner_category_security_crm/) | 14.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Partner category security (crm extension)
 [partner_coc](partner_coc/) | 14.0.1.0.1 | [![bosd](https://github.com/bosd.png?size=30px)](https://github.com/bosd) | Adds field 'Chamber Of Commerce Registration Number'
 [partner_company_group](partner_company_group/) | 14.0.1.1.0 |  | Adds the possibility to add a company group to a company
 [partner_company_type](partner_company_type/) | 14.0.1.0.1 |  | Adds a company type to partner that are companies
@@ -47,6 +50,7 @@ addon | version | maintainers | summary
 [partner_contact_lang](partner_contact_lang/) | 14.0.1.0.0 |  | Manage language in contacts
 [partner_contact_nationality](partner_contact_nationality/) | 14.0.1.0.1 |  | Add nationality field to contacts
 [partner_contact_personal_information_page](partner_contact_personal_information_page/) | 14.0.1.0.0 |  | Add a page to contacts form to put personal information
+[partner_data_vies_populator](partner_data_vies_populator/) | 14.0.1.0.1 |  | Using VIES webservice, name and address information will be fetched and added to the partner.
 [partner_deduplicate_acl](partner_deduplicate_acl/) | 14.0.1.0.0 |  | Contact deduplication with fine-grained permission control
 [partner_deduplicate_by_ref](partner_deduplicate_by_ref/) | 14.0.1.0.0 |  | Deduplicate Contacts by reference
 [partner_deduplicate_by_website](partner_deduplicate_by_website/) | 14.0.1.0.0 |  | Deduplicate Contacts by Website
@@ -78,8 +82,8 @@ addon | version | maintainers | summary
 [partner_stage](partner_stage/) | 14.0.2.1.1 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Add lifecycle Stages to Partners
 [partner_tier_validation](partner_tier_validation/) | 14.0.3.0.2 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Support a tier validation process for Contacts
 [partner_title_order](partner_title_order/) | 14.0.1.0.0 |  | Makes partner title sortable by sequence
-[partner_tz](partner_tz/) | 14.0.1.0.0 |  | Remove partner timezone default value and display on form
-[partner_vat_unique](partner_vat_unique/) | 14.0.1.0.0 |  | Module to make the VAT number unique for customers and suppliers.
+[partner_tz](partner_tz/) | 14.0.1.0.1 |  | Remove partner timezone default value and display on form
+[partner_vat_unique](partner_vat_unique/) | 14.0.1.0.1 |  | Module to make the VAT number unique for customers and suppliers.
 [portal_partner_select_all](portal_partner_select_all/) | 14.0.1.1.0 |  | Portal Partner Select All
 
 [//]: # (end addons)
