@@ -7,7 +7,7 @@
 
 <!-- /!\ do not modify above this line -->
 
-# partner-contact
+# All functionalities around partners.
 
 This repository is for all functionality around partners.
 
@@ -21,12 +21,12 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[animal](animal/) | 14.0.1.1.0 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Manage animals information
+[animal](animal/) | 14.0.1.2.0 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Manage animals information
 [animal_owner](animal_owner/) | 14.0.1.2.0 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Add owner to the animal
-[base_country_state_translatable](base_country_state_translatable/) | 14.0.1.0.0 |  | Translate Country States
+[base_country_state_translatable](base_country_state_translatable/) | 14.0.1.0.1 |  | Translate Country States
 [base_location](base_location/) | 14.0.1.2.4 |  | Enhanced zip/npa management system
 [base_location_geonames_import](base_location_geonames_import/) | 14.0.1.0.2 |  | Import zip entries from Geonames
-[base_location_nuts](base_location_nuts/) | 14.0.1.0.1 |  | NUTS Regions
+[base_location_nuts](base_location_nuts/) | 14.0.1.0.2 |  | NUTS Regions
 [base_partner_sequence](base_partner_sequence/) | 14.0.1.0.1 |  | Sets customer's code from a sequence
 [partner_address_street3](partner_address_street3/) | 14.0.1.0.0 |  | Add a third address line on partners
 [partner_address_version](partner_address_version/) | 14.0.1.0.0 |  | Partner Address Version
@@ -50,12 +50,14 @@ addon | version | maintainers | summary
 [partner_contact_lang](partner_contact_lang/) | 14.0.1.0.0 |  | Manage language in contacts
 [partner_contact_nationality](partner_contact_nationality/) | 14.0.1.0.1 |  | Add nationality field to contacts
 [partner_contact_personal_information_page](partner_contact_personal_information_page/) | 14.0.1.0.0 |  | Add a page to contacts form to put personal information
+[partner_create_format_phone](partner_create_format_phone/) | 14.0.1.0.0 |  | Auto mobile number format for Partner
 [partner_data_vies_populator](partner_data_vies_populator/) | 14.0.1.0.1 |  | Using VIES webservice, name and address information will be fetched and added to the partner.
 [partner_deduplicate_acl](partner_deduplicate_acl/) | 14.0.1.0.0 |  | Contact deduplication with fine-grained permission control
 [partner_deduplicate_by_ref](partner_deduplicate_by_ref/) | 14.0.1.0.0 |  | Deduplicate Contacts by reference
 [partner_deduplicate_by_website](partner_deduplicate_by_website/) | 14.0.1.0.0 |  | Deduplicate Contacts by Website
 [partner_deduplicate_filter](partner_deduplicate_filter/) | 14.0.1.0.0 |  | Exclude records from the deduplication
 [partner_disable_gravatar](partner_disable_gravatar/) | 14.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Disable automatic connection to gravatar.com
+[partner_duns](partner_duns/) | 14.0.1.0.1 | [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) | Set DUNS (Data Universal Numbering System) on partners
 [partner_email_check](partner_email_check/) | 14.0.1.1.1 |  | Validate email address field
 [partner_email_duplicate_warn](partner_email_duplicate_warn/) | 14.0.1.0.1 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Warning banner on partner form if another partner has the same email
 [partner_employee_quantity](partner_employee_quantity/) | 14.0.1.0.0 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Know how many employees a partner has
@@ -72,11 +74,12 @@ addon | version | maintainers | summary
 [partner_label](partner_label/) | 14.0.1.0.1 |  | Print partner labels
 [partner_manual_rank](partner_manual_rank/) | 14.0.1.0.0 |  | Be able to manually flag partners as customer or supplier.
 [partner_mobile_duplicate_warn](partner_mobile_duplicate_warn/) | 14.0.1.0.1 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Warning banner on partner form if another partner has the same mobile
+[partner_mobile_unique](partner_mobile_unique/) | 14.0.1.0.0 | [![AshishHirapara](https://github.com/AshishHirapara.png?size=30px)](https://github.com/AshishHirapara) | Restriction on partner creation if another partner has the same mobile
 [partner_multi_relation](partner_multi_relation/) | 14.0.1.1.0 |  | Partner Relations
 [partner_phone_extension](partner_phone_extension/) | 14.0.1.0.1 |  | Partner Phone Number Extension
 [partner_phone_secondary](partner_phone_secondary/) | 14.0.1.0.0 | [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) | Adds a secondary phone number on partners
 [partner_phonecall_schedule](partner_phonecall_schedule/) | 14.0.1.0.0 |  | Track the time and days your partners expect phone calls
-[partner_pricelist_search](partner_pricelist_search/) | 14.0.1.0.1 |  | Partner pricelist search
+[partner_pricelist_search](partner_pricelist_search/) | 14.0.1.0.2 |  | Partner pricelist search
 [partner_priority](partner_priority/) | 14.0.1.0.0 | [![patrickrwilson](https://github.com/patrickrwilson.png?size=30px)](https://github.com/patrickrwilson) | Adds priority to partners.
 [partner_ref_unique](partner_ref_unique/) | 14.0.1.0.0 |  | Add an unique constraint to partner ref field
 [partner_second_lastname](partner_second_lastname/) | 14.0.1.1.0 |  | Have split first and second lastnames
