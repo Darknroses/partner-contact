@@ -27,7 +27,7 @@ addon | version | maintainers | summary
 [base_location](base_location/) | 14.0.1.2.4 |  | Enhanced zip/npa management system
 [base_location_geonames_import](base_location_geonames_import/) | 14.0.1.0.2 |  | Import zip entries from Geonames
 [base_location_nuts](base_location_nuts/) | 14.0.1.0.2 |  | NUTS Regions
-[base_partner_sequence](base_partner_sequence/) | 14.0.1.0.1 |  | Sets customer's code from a sequence
+[base_partner_sequence](base_partner_sequence/) | 14.0.1.0.2 |  | Sets customer's code from a sequence
 [partner_address_street3](partner_address_street3/) | 14.0.1.0.0 |  | Add a third address line on partners
 [partner_address_version](partner_address_version/) | 14.0.1.0.0 |  | Partner Address Version
 [partner_affiliate](partner_affiliate/) | 14.0.1.0.1 |  | Partner Affiliates
@@ -51,7 +51,7 @@ addon | version | maintainers | summary
 [partner_contact_nationality](partner_contact_nationality/) | 14.0.1.0.1 |  | Add nationality field to contacts
 [partner_contact_personal_information_page](partner_contact_personal_information_page/) | 14.0.1.0.0 |  | Add a page to contacts form to put personal information
 [partner_create_format_phone](partner_create_format_phone/) | 14.0.1.0.0 |  | Auto mobile number format for Partner
-[partner_data_vies_populator](partner_data_vies_populator/) | 14.0.1.0.1 |  | Using VIES webservice, name and address information will be fetched and added to the partner.
+[partner_data_vies_populator](partner_data_vies_populator/) | 14.0.1.0.2 |  | Using VIES webservice, name and address information will be fetched and added to the partner.
 [partner_deduplicate_acl](partner_deduplicate_acl/) | 14.0.1.0.0 |  | Contact deduplication with fine-grained permission control
 [partner_deduplicate_by_ref](partner_deduplicate_by_ref/) | 14.0.1.0.0 |  | Deduplicate Contacts by reference
 [partner_deduplicate_by_website](partner_deduplicate_by_website/) | 14.0.1.0.0 |  | Deduplicate Contacts by Website
@@ -65,7 +65,7 @@ addon | version | maintainers | summary
 [partner_fax](partner_fax/) | 14.0.1.0.0 |  | Add fax number on partner
 [partner_firstname](partner_firstname/) | 14.0.1.1.0 |  | Split first name and last name for non company partners
 [partner_helper](partner_helper/) | 14.0.1.0.0 |  | Add specific helper methods
-[partner_identification](partner_identification/) | 14.0.1.3.0 |  | Partner Identification Numbers
+[partner_identification](partner_identification/) | 14.0.1.4.0 |  | Partner Identification Numbers
 [partner_identification_gln](partner_identification_gln/) | 14.0.1.0.1 |  | This addon extends "Partner Identification Numbers" to provide a number category for GLN registration
 [partner_identification_notification](partner_identification_notification/) | 14.0.1.0.0 |  | Partner Identification Notification
 [partner_identification_unique_by_category](partner_identification_unique_by_category/) | 14.0.1.0.1 |  | Partner Identification Numbers Unique By Category
