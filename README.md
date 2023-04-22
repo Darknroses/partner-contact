@@ -24,7 +24,7 @@ addon | version | maintainers | summary
 [animal](animal/) | 14.0.1.2.0 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Manage animals information
 [animal_owner](animal_owner/) | 14.0.1.2.0 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Add owner to the animal
 [base_country_state_translatable](base_country_state_translatable/) | 14.0.1.0.1 |  | Translate Country States
-[base_location](base_location/) | 14.0.1.2.4 |  | Enhanced zip/npa management system
+[base_location](base_location/) | 14.0.1.2.5 |  | Enhanced zip/npa management system
 [base_location_geonames_import](base_location_geonames_import/) | 14.0.1.0.2 |  | Import zip entries from Geonames
 [base_location_nuts](base_location_nuts/) | 14.0.1.0.2 |  | NUTS Regions
 [base_partner_sequence](base_partner_sequence/) | 14.0.1.0.2 |  | Sets customer's code from a sequence
@@ -36,7 +36,7 @@ addon | version | maintainers | summary
 [partner_category_security](partner_category_security/) | 14.0.1.0.1 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Partner category security
 [partner_category_security_crm](partner_category_security_crm/) | 14.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Partner category security (crm extension)
 [partner_coc](partner_coc/) | 14.0.1.0.1 | [![bosd](https://github.com/bosd.png?size=30px)](https://github.com/bosd) | Adds field 'Chamber Of Commerce Registration Number'
-[partner_company_group](partner_company_group/) | 14.0.1.1.0 |  | Adds the possibility to add a company group to a company
+[partner_company_group](partner_company_group/) | 14.0.1.1.1 |  | Adds the possibility to add a company group to a company
 [partner_company_type](partner_company_type/) | 14.0.1.0.1 |  | Adds a company type to partner that are companies
 [partner_contact_access_link](partner_contact_access_link/) | 14.0.1.0.0 | [![Yajo](https://github.com/Yajo.png?size=30px)](https://github.com/Yajo) | Allow to visit the full contact form from a company
 [partner_contact_address_default](partner_contact_address_default/) | 14.0.1.1.0 |  | Set a default delivery and invoice address for contacts
@@ -51,7 +51,7 @@ addon | version | maintainers | summary
 [partner_contact_nationality](partner_contact_nationality/) | 14.0.1.0.1 |  | Add nationality field to contacts
 [partner_contact_personal_information_page](partner_contact_personal_information_page/) | 14.0.1.0.0 |  | Add a page to contacts form to put personal information
 [partner_create_format_phone](partner_create_format_phone/) | 14.0.1.0.0 |  | Auto mobile number format for Partner
-[partner_data_vies_populator](partner_data_vies_populator/) | 14.0.1.0.2 |  | Using VIES webservice, name and address information will be fetched and added to the partner.
+[partner_data_vies_populator](partner_data_vies_populator/) | 14.0.1.0.3 |  | Using VIES webservice, name and address information will be fetched and added to the partner.
 [partner_deduplicate_acl](partner_deduplicate_acl/) | 14.0.1.0.0 |  | Contact deduplication with fine-grained permission control
 [partner_deduplicate_by_ref](partner_deduplicate_by_ref/) | 14.0.1.0.0 |  | Deduplicate Contacts by reference
 [partner_deduplicate_by_website](partner_deduplicate_by_website/) | 14.0.1.0.0 |  | Deduplicate Contacts by Website
